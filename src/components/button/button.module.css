@@ -1,0 +1,13 @@
+.button {
+    cursor: pointer;
+    padding: 8px 12px 8px 12px;
+    border-radius: 8px;
+    border: unset;
+    outline: solid 1px;
+    transition: background-color 0.2s;
+    height: 48;
+    min-width: 85;
+}
+.button:hover {
+    background-color: lightgray;
+}

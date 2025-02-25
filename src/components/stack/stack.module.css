@@ -1,0 +1,23 @@
+.stack {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.row {
+    flex-direction: row;
+    column-gap: 16px;
+}
+
+.click-able {
+    cursor: pointer;
+    border: solid 0px grey;
+    transition: border 0.1s;
+}
+
+.click-able:hover {
+    border: solid 1px grey;
+}
